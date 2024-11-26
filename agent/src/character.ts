@@ -2,7 +2,7 @@ import { Character, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
 
 export const character: Character = {
     ...defaultCharacter,
-    name: "Mai まい",
+    name: "Eliza",
     // plugins: [],
     // clients: [],
     modelProvider: ModelProviderName.ANTHROPIC,
