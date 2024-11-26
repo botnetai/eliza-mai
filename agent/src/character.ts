@@ -1,10 +1,10 @@
-import { Character, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
+import { Character, Clients, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
 
 export const character: Character = {
     ...defaultCharacter,
     name: "Mai まい",
     // plugins: [],
-    // clients: [],
+    clients: [Clients.DISCORD, Clients.DIRECT],
     modelProvider: ModelProviderName.ANTHROPIC,
     settings: {
         secrets: {},

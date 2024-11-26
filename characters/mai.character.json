@@ -1,6 +1,6 @@
 {
     "name": "Mai まい",
-    "clients": [],
+    "clients": ["DISCORD", "DIRECT"],
     "modelProvider": "anthropic",
     "settings": {
         "secrets": {},
